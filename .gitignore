@@ -1,0 +1,32 @@
+# Start by ignoring all
+
+*
+/*
+**/*
+
+# Ignore all files named .DS_Store or ending with .log
+**/.DS_Store
+**.log
+
+# Not ignore file I want to push
+!Makefile
+!client/
+!client/**
+client/app/public/
+client/app/public/**
+client/app/node_modules/
+client/app/node_modules/**
+client/app/.parcel-cache/
+client/app/.parcel-cache/**
+!server/
+!server/**
+server/app/node_modules/
+server/app/node_modules/**
+
+# End by ignoring git files
+
+**/.git
+**/.gitignore
+!.gitignore
+!README.md
+!LICENCE

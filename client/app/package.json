@@ -1,0 +1,17 @@
+{
+  "name": "dungeon",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "First Last <first.last@example.com>",
+  "type": "module",
+  "scripts": {
+    "mode": "npm run dev-front",
+    "dev-front": "npx parcel ./src/index.html --dist-dir ./public --no-cache"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "socket.io": "^4.7.2"
+  }
+}
