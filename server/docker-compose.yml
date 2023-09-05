@@ -5,6 +5,3 @@ services:
       dockerfile: ./docker/Dockerfile
     ports:
       - 3000:3000
-    volumes:
-      - ./app:/node
-      - /node/node_modules

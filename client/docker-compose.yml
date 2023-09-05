@@ -6,5 +6,4 @@ services:
     ports:
       - 1234:1234
     volumes:
-      - ./app/:/node
-      - /node/node_modules
+      - ./app/public/:/node/public/

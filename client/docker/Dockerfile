@@ -3,5 +3,5 @@ WORKDIR /node
 COPY app/package.json .
 RUN npm install -g npm@latest
 RUN npm install
-RUN npm ci --omit=dev
+COPY ./app .
 CMD [ "npm", "run", "mode" ]
